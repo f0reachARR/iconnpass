@@ -8,7 +8,7 @@ iconnpass
 ## How to use
 
 イベントURL (例: `https://othlotech.connpass.com/event/80461/`)の数字部分(`80461`)を`https://iconnpass.5ch.pink/svg/`に繋げます。
-`.svg`の拡張子を付けてもOK
+`.svg`の拡張子を付けてもOK -> 例の場合: https://iconnpass.5ch.pink/svg/80461.svg
 
 表示例: 
 [![iConnpass](https://iconnpass.5ch.pink/svg/80461.svg)](https://othlotech.connpass.com/event/80461/)

@@ -19,7 +19,7 @@ const sanitize = (str: string) => str.replace(/&/g, '&amp;').replace(/</g, '&lt;
         res.contentType('image/svg+xml; charset=utf-8').end(svg('iconnpass', 'It works!', GREEN));
     });
     app.get('/svg/:eventId', async (req, res, next) => {
-        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Cache-Control', 'max-age=3600');
         const eventId = Number((req.params.eventId as string || '').replace('.svg', ''));
         if (isNaN(eventId)) {
             return res.status(400).end('Bad Request');

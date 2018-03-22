@@ -1,0 +1,4 @@
+node_modules/
+bin/
+config.yml
+*.db

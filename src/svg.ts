@@ -1,6 +1,6 @@
 const PADDING = 12;
 const textWidth = (str: string) => str.split('')
-    .reduce((len, char) => len + (char.match(/([\uff66-\uff9c]\uff9e)|([\uff8a-\uff8e]\uff9f)|([\uff61-\uff9f])|[\x20-\x7E]/) ? 6 : 10), 0);
+    .reduce((len, char) => len + (char.match(/([\uff66-\uff9c]\uff9e)|([\uff8a-\uff8e]\uff9f)|([\uff61-\uff9f])|[\x20-\x7E]/) ? 6 : 11), 0);
 
 export const RED = 'e05d44';
 export const GREEN = '4c1';
